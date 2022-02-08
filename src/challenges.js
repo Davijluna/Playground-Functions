@@ -20,8 +20,8 @@ function splitSentence() {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(string) {
+  return string[string.length -1] +  ","+ string[0];
 }
 
 // Desafio 5
@@ -35,14 +35,35 @@ function highestCount() {
 }
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse( mouse, cat1 , cat2) {
+  let distanciaA= Math.abs(mouse - cat1);
+  let distanciaB= Math.abs(mouse - cat2);
+  if (distanciaA > distanciaB){
+
+  }
 }
 
+
+
 // Desafio 8
-function fizzBuzz() {
-  
-}
+function fizzBuzz(array) {
+let  receptor = [];
+  for(let contador = 0; contador < array.length; contador +=1){
+      if(array[contador] % 3  == 0 && array[contador]% 5 == 0){
+         receptor.push('fizzBuzz');
+      }
+    else if(array[contador]%5 == 0){
+       receptor.push('buzz');
+    }
+    else if(array[contador]%3 == 0){
+     receptor.push('fizz');
+    }else{
+     receptor.push('bug!');
+    }
+    }
+    return receptor;
+    }
+    
 
 // Desafio 9
 function encode() {
@@ -69,4 +90,4 @@ module.exports = {
   highestCount,
   splitSentence,
   techList,
-}
+};
