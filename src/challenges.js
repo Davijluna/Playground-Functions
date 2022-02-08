@@ -40,16 +40,7 @@ function catAndMouse() {
 }
 
 // Desafio 8
-function fizzBuzz(num) {
-  let num =[2, 15, 7, 9 , 45];
-  for(contador =0; contador < num.length; contador+=1){
-    if(num[contador] % 3 === 0)
-      return 'Fizz';
-  if (num[contador] % 5 === 0)
-    return 'Buzz';
-  if(num[contador]% 3 === 0 && num[contador] % 5 ===0)
-    return 'test';
-    
+function fizzBuzz() {
   
 }
 
@@ -78,4 +69,4 @@ module.exports = {
   highestCount,
   splitSentence,
   techList,
-};
+}
