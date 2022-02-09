@@ -1,6 +1,9 @@
 // Desafio 11
-function generatePhoneNumber() {
-  // seu código aqui
+function generatePhoneNumber(array) {
+
+  if(array.length > 11){
+    return "Array com tamanho incorreto."
+  }else if()
 }
 
 // Desafio 12

@@ -22,9 +22,8 @@ function splitSentence(string) {
 
 // Desafio 4
 function concatName(string) {
-  let resultado=[];
-   resultado= string[string.length -1 + ","+ string[0]];
-  return resultado;
+  
+  
 }
 
 // Desafio 5
@@ -93,18 +92,71 @@ let  receptor = [];
 
 // Desafio 9
 function encode(string) {
-
+ let stringA='';
+    
+ for (let c = 0; c < string.length; c += 1){
+    if (string[c] === 'a'){
+      stringA += '1'
+    }else if(string[c] =='e'){
+      stringA += '2'
+    }else if(string[c] == 'i'){
+      stringA += '3'
+    }else if(string[c] =='o'){
+      stringA += '4'
+    }else if(string[c] =='u'){
+      stringA += '5'
+    }else{
+      stringA += string[c];
+    }
+ 
+}
+return stringA
 }
 function decode(string) {
-  
-
+  let stringB='';
+    
+  for (let c = 0; c < string.length; c += 1){
+        if (string[c] =='1'){
+          stringB += 'a'
+        }
+        else if(string[c] =='2'){
+          stringB += 'e'
+        }else if(string[c] =='3'){
+          stringB += 'i'
+        }else if(string[c] =='4'){
+          stringB += 'o'
+        }else if(string[c] =='5'){
+          stringB += 'u'
+        }else{
+          stringB+= string[c];
+          }
+    }
+      return stringB;
 }
 
 
 
 // Desafio 10
 function techList(array, name) {
-  // seu código aqui
+
+  let tecnologia = [];
+  
+  if(array.length === 0){
+    return 'Vazio!';
+   
+  }else{
+  tecnologia.sort();
+  for(let c =0; c < array.length; c+=1){
+tecnologia.push(
+            {
+              tecnologia: array[c],
+              name: name
+            },
+         )
+    }
+   
+  }
+  return tecnologia;
 }
 
 module.exports = {
