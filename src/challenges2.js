@@ -1,10 +1,9 @@
 // Desafio 11
 function generatePhoneNumber(array) {
 
-  if(array.length > 11){
-    return "Array com tamanho incorreto."
-  }else if()
-}
+  
+  
+  }
 
 // Desafio 12
 function triangleCheck(lineA ,lineB ,lineC) {
