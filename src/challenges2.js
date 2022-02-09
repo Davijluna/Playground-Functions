@@ -9,8 +9,8 @@ function triangleCheck() {
 }
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(string) {
+  
 }
 
 module.exports = {
