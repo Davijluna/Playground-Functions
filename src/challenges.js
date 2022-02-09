@@ -22,7 +22,9 @@ function splitSentence(string) {
 
 // Desafio 4
 function concatName(string) {
-  return string[string.length -1] +  ","+ string[0];
+  let resultado=[];
+   resultado= string[string.length -1 + ","+ string[0]];
+  return resultado;
 }
 
 // Desafio 5
@@ -90,15 +92,18 @@ let  receptor = [];
     
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(string) {
+
 }
-function decode() {
-  // seu código aqui
+function decode(string) {
+  
+
 }
 
+
+
 // Desafio 10
-function techList() {
+function techList(array, name) {
   // seu código aqui
 }
 
