@@ -1,6 +1,12 @@
 // Desafio 11
 function generatePhoneNumber(array) {
+  let numberPhone ='';
 
+  if(array.length != 11){
+    return "Array com tamanho incorreto.";
+
+
+  }
   
   
   }

@@ -1,4 +1,5 @@
 // Desafio 1
+// Resolução do exemplo a baixo foi visto em aula ao vivo com especialista Caique.
 function compareTrue(exemploA , exemploB) {
   if(exemploA && exemploB == true){
   return true;
@@ -15,6 +16,8 @@ function calcArea(base , height) {
 }
 
 // Desafio 3
+// Metodo split retirei da documentação Microsoft 
+//link:https://docs.microsoft.com/pt-br/dotnet/api/system.string.split?view=net-6.0
 function splitSentence(string) {
   let resultado = string.split(" ");
   return resultado;
@@ -56,6 +59,7 @@ function highestCount(array6) {
 }
 
 // Desafio 7
+// Metodo Math foi visto nas mentorias Trybe com estrutores thiago e Matheus.
 function catAndMouse( mouse, cat1 , cat2) {
   let distanciaA= Math.abs(mouse - cat1);
   let distanciaB= Math.abs(mouse - cat2);
