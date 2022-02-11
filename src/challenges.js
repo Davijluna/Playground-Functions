@@ -22,8 +22,8 @@ function splitSentence(string) {
 
 // Desafio 4
 function concatName(string) {
-  
-  
+  let nome = string[string.length-1] +", " + string[0];
+  return nome;
 }
 
 // Desafio 5
